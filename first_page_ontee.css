@@ -1,0 +1,95 @@
+body{
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0
+}
+div.Content{
+    background-color:white;
+    margin: 60px 60px 80px 60px;
+    padding: 30px;
+    min-width: 390px;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p.descripcion{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+div.Categoria{
+    margin-bottom: -80px;
+}
+p.Categoria{
+    background-color:black;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 10px 18px;
+    font-weight: bold;
+}            
+div.separador{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+table.info{
+    position: absolute; 
+    bottom:0; 
+    color: white;
+    width: 100%;
+    background-color: rgb(190, 147, 28, 70%);
+}
+div.info{
+    position: relative;
+}
+div.col{
+    width: 45%;
+    margin-top: 20px;
+}
+div.col h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid black;
+}
+div.col1{
+    display: inline-block;
+    margin-right: 10px;
+}
+div.col2{
+    float: right;
+}
+div.ingresientes p{
+    text-align: center;
+    font-size: 14px;
+    border: solid lightgrey;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+table.instrucciones p.number{
+    background-color: rgb(190, 147, 28, 70%);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+*{
+    overflow: auto;
+}
